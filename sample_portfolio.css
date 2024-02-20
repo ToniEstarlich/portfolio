@@ -1,0 +1,462 @@
+/* The navigation bar */
+/* Links inside the navbar */
+
+   /**/
+  /**/
+ /*DIV*/
+ 
+ 
+ .containers{
+  height: 500vh;
+  border: 0px solid  rgb(244, 219, 95);
+  display: grid;   
+   }
+
+   main {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid;
+    padding: 60px;
+    height: 150;
+    width: 200;
+ }
+ 
+ .github {
+ position: absolute;
+ top: 50;
+ left: 180%;
+ transform: translate(-50%, -50%);
+  }
+.boxhome{
+  position:absolute;
+
+} 
+.inner_box {
+  max-width: 650px;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(255, 255, 255, .4);
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 250px;
+  width: 550px;
+  height: 550px;
+  transform: translateY(-30%);
+  left: -10%;
+  
+ 
+}
+
+.inner_box h1{
+  font-size: 45px;
+}
+
+.inner_box p{
+  margin: 10px;
+  font-size: 18px;
+
+}
+
+.about {
+  position: absolute;
+  top: 50%;
+  left: -80%;
+  transform: translate(-50%, -50%);
+   }
+
+
+.inner_box2 {
+  max-width: 650px;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(255, 255, 255, .4);
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 250px;
+  width: 550px;
+  height: 650px;
+  transform: translateY(-30%);
+  left: 50%;
+  
+ 
+}
+
+.inner_box2 h1{
+  font-size: 45px;
+}
+
+.inner_box2 p{
+  margin: 10px;
+  font-size: 18px;
+
+}
+
+.div2{
+  backgroun-v
+}
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 180%;
+  transform: translate(-50%, -50%);
+ }
+
+.inner_box3 {
+  max-width: 650px;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(255, 255, 255, .4);
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 250px;
+  width: 550px;
+  height: 250px;
+  transform: translateY(-30%);
+  left: -10%;
+  
+ 
+}
+
+.inner_box3 h1{
+  font-size: 45px;
+}
+
+.inner_box3 p{
+  margin: 10px;
+  font-size: 18px;
+
+}
+.github {
+  position: absolute;
+  top: 50;
+  left: 180%;
+  transform: translate(-50%, -50%);
+   }
+
+.inner_box4 {
+  max-width: 650px;
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:white;
+  box-shadow: black;
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 250px;
+  width: 0px;
+  height: 0px;
+  transform: translateY(-30%);
+  left: 35%;
+}
+
+.inner_box4 h1{
+  font-size: 45px;
+}
+
+.inner_box4 p{
+  margin: 10px;
+  font-size: 18px;
+
+}
+
+
+/*form*/
+input[type=text]:hover {
+  box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
+}
+
+/* Submit button */
+input[type=submit] {
+  background-color: black; /* Sets the background color of the submit button to black */
+  color: white; /* Sets the font color of the Submit button to white */
+  font-weight: bold; /* Makes the font of the submit button bold */
+  padding: 12px 20px; /* Adds padding to the submit button */
+  border: none; /* Removes the border from the submit button */
+  border-radius: 4px; /* Gives the submit button the same rounded corners as the text boxes */
+  cursor: pointer; /* Changes the cursor to pointer when over the submit button */
+  display: block; /* Allows the submit button to be centered */
+  margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
+  margin-right: auto;
+  font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* Hover effect for submit button */
+input[type=submit]:hover {
+  background-color:  rgb(108, 109, 38); /* Turns the background of the submit button white when the user hovers over it */
+  color: black; /* Turns the font black when hovered over */
+  transform: scale(1.5); /* Makes the button increase 1.5 times in size */
+  transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
+}
+
+/***** Contact Form Styling *****/
+
+/* Button used to open the contact form - fixed at the bottom of the page*/
+.Pop_Up_Button {
+  position: fixed; /* The element is positioned relative to the viewport and stays in the same location  no matter what*/
+  bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
+  right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
+  width: 25vw; /* Sets the width relative to the viewport width*/
+  background-color: white; /* Sets the background color of the button to withe*/
+  color: black; /*Sets the color of the button text to black*/
+  border: solid black; /* This makes a solid clack border around the button */
+  cursor: pointer; /* This changes the cursor when hovered over the button to a pointer*/
+  -webkit-animation: movePopup 5s; /* Animation for 5 seconds for safari 4.0-8.0 */
+  animation: movePopup 5s; /* Animation set for 5 seconds */
+}
+
+/* movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
+@keyframes movePopup {
+  from {right: -40vw;}
+  to {right: 1.75vw;}
+}
+
+@-webkit-Keyframes movePopup {
+  from {right: -40vw;}
+  to {rigth: 1.75vw;}
+}
+/* Styling for the contact form*/
+.form-popup {
+  z-index: 8; /* This z-index ensures the contact form show aboeve all other elements on the page */
+  display: none; /* Set the diplay to none, we will use JavaScript to show the contact form*/
+  position: fixed; /* The form stay in the same location no matter what*/
+  bottom: 5vw; /* Slightly up from the bottom of the viewport*/
+  right: .5vw; /* slighty in from the rigth side of the viewport*/
+}
+
+/*Form styling*/
+.form-container {
+  max-width: 49vw; /*Relative sizing of the form container - 49% of the vidth*/
+  padding: 1vw; /*Adds padding between the form-popup and the form-container*/
+  background-color: white;
+}
+
+/* Input fields*/
+.form-container input[type=text] {
+  width: 100%; /* The input boxes completely fill the width of the form-container*/
+  padding: .93vw; /* Adds padding to the input boxes*/
+  margin: .6vw 0 .6vw 0;/* Adds space between the input boxes and the labels*/
+  border: none; /* Removes the border from the input boxes*/
+  background: gainsboro; /* Sets the background color of the input boxes*/
+  font-size: 1vw; /*Relative font sizing based on the width of the viewport */
+}
+
+/* General styling for all buttons*/
+button {
+  font-family: "Trebuchet MS", Optima;
+  letter-spacing: .3vw; /*Adds slight spacing between the letters*/
+  font-size: 1.5vw; /*Relative sizing of text*/
+  font-weight: bold;
+  padding: 1.5vw; /* Adds padding to the text in the button */
+  cursor: pointer; /* Changes the cursor to pointer over button elements*/
+  width: 100%; /* Sets the width of the buttons to 100% of their containers */
+  height: auto; /*Allows the height to be resized depending on the content showing*/
+}
+
+/* Hover effect for contact and submit buttons */
+button:hover, .form-container .btn:hover {
+  color: white; /* This makes text in the buttons white when hovered over */
+  background-color: rgb(180, 183, 25); /* The background of the button changes to black when hovered over*/
+  transition-duration: 1s; /*This makes the transition last 1 second*/
+  -webkit-transition-duration: 1s; /* For safari 4.0-8.0*/
+  border-color: silver; /* The border turns silver when the button is hovered over */
+}
+
+/* Submit button */
+.form-container .btn {
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin-bottom: 1vh; /* Adds space between the submit button and the close button */
+}
+
+/* Close button */
+.form-container .cancel {
+  background-color: black;
+  color: white;
+  border-color: gray;
+}
+
+/* Styling for close button on hover */
+.form-container .cancel:hover {
+  color: white;
+  background-color: darkred;
+  transition-duration: 1s;
+  -webkit-tranition-duration: 1s;
+  border-color: black;
+}
+/***** End of Contact form Styling *****/
+
+.Column_1 {
+  width: 450px;
+  height: 650px;
+}
+/*end form*/
+
+/*DIV*/
+     /***** Navbar Styling *****/
+     .Navbar {
+      overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+      background-color: rgb(244, 219, 95) ; /* This colors the navbar yellow */
+      position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+      top: 0; /* This ensures no space is displayed above the navbar */
+      width: 100%; /* This makes the navbar span the entire width of the page */
+      z-index: 1; /* This ensures other elements don't display over the navbar */
+      -webkit-animation: moveNav 5s; /* Safari 4.0 - 8.0 */
+      animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
+  }
+  
+  /* The animation effect for moving the nav bar in from above the left of the screen on page load */
+  @keyframes moveNav {
+      from {left: -100vw;} /* The navbar is starting off screen to the left */
+      to { left: 0vw;} /* This moves the navbar into place on the screen */
+  }
+  
+  /*Navbar Links */
+  .Navbar a {
+      float: left; /* This specifies that the text floats on the left on the navbar */
+      display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+      color: white; /* This is the font color for text on our navbar */
+      padding: .75vw 1vw; /* This adds padding around our text */
+      text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+      font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+      font-size: 1.5vw; /* This specifies the font size for text on our navbar */
+      text-align: center; /* This centers the text within its container */
+      position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
+      -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
+      animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */ 
+  }
+  
+  /* The animation effect for moving the nav bar links in from above the top of the screen on page load */
+  @keyframes moveNavText {
+      from {top: -100vw;} /* This sets the navbar text 100% above the viewport */
+      to {top: 0vw;} /* This lowers the navbar text onto the navbar */
+  }
+  
+  /*Navbar hover effects */
+  .Navbar a:hover {
+      background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
+      color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+      font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+      cursor: pointer;
+      transition: 0.5s ease-in; /* Creates a smooth transition for the hover trigger */
+  }
+  
+  /* Navbar home button */
+  .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+      background-color: darkgray;
+  }
+  /***** End of Navbar Styling *****/
+
+.main {
+  margin-top: 30px;
+  /* Add a top margin to avoid content overlay */
+}
+
+
+
+/* Main content */
+.main {
+  margin-bottom: 50px; /* Add a bottom margin to avoid content overlay */
+}
+/* End navigation bar */
+
+ /**/
+ .footer {
+  text-align: center;
+  padding: -50px;
+  background-color: rgb(244, 219, 95);
+  color:  rgb(108, 109, 38);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+footer {
+  display: block;
+}
+
+
+/*SLIDER*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: -100%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
